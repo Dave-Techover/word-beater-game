@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- title -->
+	<title>Word Beater</title>
+	<!-- stylesheet -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<header>
+	<h1>Word Beater</h1>	
+</header>
+
+<section class="game-start">
+	<h4>Select a level</h4>
+	<select class="levels">
+		<option value="easy">Easy</option>
+		<option value="normal">Normal</option>
+		<option value="hard">Hard</option>
+		<option value="expert">Expert</option>
+	</select>
+
+	<button class="start-btn">Start!</button>
+</section>
+
+
+<section class="game-container hide">
+	<p>Type the following word within the time limit given: <span class="time-limit gold"></span></p>
+	<p>Time left: <span class="time-display"></span> seconds</p>
+	<h3 class="given-word"></h3>
+	<input type="text" name="word-input" class="word-input" autofocus>
+	<p class="comment"></p>
+	<p class="new-high-score hide">New High Score!!!</p>
+	<p>Score: <span class="player-score"></span></p>
+	<p> Your high score: <span class="high-score"></span></p>
+	<button class="pick-level-btn">Choose level</button>
+</section>
+
+<section class="guide">
+	<h4>How To Play:</h4>
+	<ul>
+		<li>Select a level and click the "Start" button</li>
+		<li>Type each word given to you with the given time limit</li>
+		<li>If the time limit is exceeded, then it's game over :(</li>
+		<li>When the game is over, type the current word correctly to start again</li>
+		<li>Each level has a time limit
+			<ul>
+				<li>Easy:   10 seconds</li>
+				<li>Normal: 7 seconds</li>
+				<li>Hard:   5 seconds</li>
+				<li>Expert: 3 seconds</li>
+			</ul>
+		</li>
+	</ul>
+	<p>Can you beat the word?</p>
+</section>
+
+<footer>Developer: <a href="https://github.com/Dave-Techover">Dave-TechOver</a> | <a href="#">View on GitHub</a></footer>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
