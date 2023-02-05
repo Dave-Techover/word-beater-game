@@ -19,7 +19,6 @@ h1{
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-decoration: none;
-
 }
 
 footer{
@@ -55,7 +54,7 @@ select.levels{
 }
 
 select.levels:focus{
-	outline: 1px solid lightgrey;
+	outline: 2px solid lightgrey;
 }
 
 button.start-btn{

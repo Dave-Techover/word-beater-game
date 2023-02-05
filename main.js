@@ -8,7 +8,7 @@ let   playerScore           = 0,
 	isPlaying;
 
 // ARRAY OF WORDS
-let wordList = ["Absolutely", "Document", "Command", "Developer", "Difficulty", "Overflow", "Network", "TechOver", "Spectacular", "Beautiful", "Element", "Computer", "Amazing"];	 
+let wordList = ["Absolutely", "Document", "Command", "Developer", "Difficulty", "Overflow", "Network", "TechOver", "Spectacular", "Beautiful", "Element", "Computer", "Amazing", "Mississippi", "Accumulator"];	 
 
 // DOM VARIABLES
 const   gameStartContainer           = document.querySelector(".game-start"),
